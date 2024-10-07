@@ -47,7 +47,7 @@ const Dashboard: React.FC = () => {
     // Function to copy the link to clipboard
     const copyToClipboard = () => {
         if (link) {
-            navigator.clipboard.writeText(`http://localhost:5173/messages/${link}`);
+            navigator.clipboard.writeText(`https://anonym-seven.vercel.app/messages/${link}`);
             alert("Link copied to clipboard!");
         }
     };
@@ -74,7 +74,7 @@ const Dashboard: React.FC = () => {
                         href={`/messages/${link}`} 
                         className="text-orange-300 hover:underline"
                     >
-                        {`http://localhost:5173/messages/${link}`}
+                        {`https://anonym-seven.vercel.app/messages/${link}`}
                     </a>
                     <button 
                         onClick={copyToClipboard} 
