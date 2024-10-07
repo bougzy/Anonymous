@@ -10,12 +10,12 @@ const HomePage = () => {
             <div className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-black text-orange-500">
                 {/* Left Div with Text and Buttons */}
                 <div className="flex flex-col items-start justify-center md:w-1/2 p-6">
-                    <h1 className="text-4xl font-bold mb-6">Welcome to the Chat Application</h1>
+                    <h1 className="text-8xl font-extrabold  mb-6">Welcome to the Chat Application</h1>
                     <p className="mb-4">
                         Join us to connect and communicate seamlessly with your friends and family!
                     </p>
                     <div>
-                        <Link to="/signup" className="bg-blue-500 text-white p-2 rounded mr-2 hover:bg-blue-600 transition">Send a message</Link>
+                        <Link to="/register" className="bg-purple-600 text-white p-2 rounded mr-2 hover:bg-purple-800 transition">Send a message</Link>
                         {/* <Link to="/login" className="bg-green-500 text-white p-2 rounded hover:bg-green-600 transition">Login</Link> */}
                     </div>
                 </div>
