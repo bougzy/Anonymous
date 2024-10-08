@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom'; 
-import HomePage from './components/HomePage/HomePage';
-import Login from './components/Login/Login';
-import Register from './components/Register/Register';
+import HomePage from './Pages/HomePage/HomePage';
+import Login from './Pages/Login/Login';
+import Register from './Pages/Register/Register';
 import Dashboard from './components/Dashboard/Dashboard';
 import AnonymousMessage from './components/AnonymousMessage/AnonymousMessage';
 import Navbar from './components/Navbar/Navbar'; 
