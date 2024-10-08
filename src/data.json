@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "pass1",
+      "token": "abc123"
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "userId": 1,
+      "linkId": "xyz123"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "linkId": "xyz123",
+      "message": "Hello! This is an anonymous message.",
+      "sender": "Anonymous"
+    }
+  ]
+}

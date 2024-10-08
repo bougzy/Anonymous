@@ -33,12 +33,12 @@
 
 import { Link } from 'react-router-dom';
 import chatImage from './assets/mask.jpg'; // Update with your image path
-import Navbar from './Navbar'; // Import the Navbar component
+
 
 const HomePage = () => {
     return (
         <>
-            <Navbar /> {/* Add the Navbar here */}
+           
             <div className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-black text-orange-500">
                 {/* Left Div with Text and Buttons */}
                 <div className="flex flex-col items-start justify-center md:w-1/2 p-4 md:p-6">
