@@ -36,7 +36,7 @@ const AnonymousMessage: React.FC<AnonymousMessageProps> = ({ linkId, addMessage 
                         className="p-2 mb-4 border border-gray-700 rounded-md bg-gray-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-600"
                         placeholder="Type your anonymous message here..."
                     />
-                    <button type="submit" className="px-4 py-2 bg-purple-600 text-white rounded-md hover:bg-purple-500 transition duration-200">
+                    <button type="submit" className="px-4 py-2 rounded-tr-lg rounded-bl-lg bg-orange-500 text-white hover:bg-orange-400 transition duration-200">
                         Send
                     </button>
                 </form>

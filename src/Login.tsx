@@ -25,15 +25,19 @@ const Login = () => {
 
     return (
         <div className="flex items-center justify-center min-h-screen bg-gray-800">
-            <form onSubmit={handleLogin} className="flex flex-col bg-gray-900 p-8 rounded-lg shadow-lg w-full max-w-sm">
-                <h2 className="text-2xl font-bold text-white mb-6 text-center">Login</h2>
+            <form 
+                onSubmit={handleLogin} 
+                className="flex flex-col bg-gray-900 p-8 rounded-3xl shadow-lg w-full max-w-sm border-4 border-gray-900" // Updated border radius and color
+            >
+                <h2 className="text-3xl font-bold text-white text-center">LOGIN</h2>
+                <p className="text-white text-center">Please enter your details</p>
                 <input
                     type="text"
                     placeholder="Username"
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
                     required
-                    className="p-2 mb-4 border border-gray-700 rounded-md bg-gray-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-600"
+                    className="p-2 mt-7 border border-gray-700 rounded-md bg-gray-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-600"
                 />
                 <input
                     type="password"
@@ -41,18 +45,21 @@ const Login = () => {
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     required
-                    className="p-2 mb-4 border border-gray-700 rounded-md bg-gray-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-600"
+                    className="p-2 mt-7 border border-gray-700 rounded-md bg-gray-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-600"
                 />
-                <button type="submit" className="px-4 py-2 bg-purple-600 text-white rounded-md hover:bg-purple-500 transition duration-200">
+                <button 
+                    type="submit" 
+                    className="px-4 py-2 bg-orange-600 text-white rounded-tr-lg rounded-bl-lg hover:bg-orange-500 transition duration-200 mt-14"
+                >
                     Login
                 </button>
-                <div className="flex space-x-2 mt-4">
+                <div className="flex space-x-2 mt-6">
                     <p className="text-white">Don't have an account?</p>
-                    <Link to="/register" className="font-bold text-purple-500 transition">Register</Link>
+                    <Link to="/register" className="font-bold text-orange-100 transition">Register</Link>
                 </div>
             </form>
         </div>
     );
 };
 
-export default Login; 
+export default Login;
