@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom'; 
-import HomePage from './HomePage';
-import Login from './Login';
-import Register from './Register';
-import Dashboard from './Dashboard';
-import AnonymousMessage from './AnonymousMessage';
-import Navbar from './Navbar'; 
+import HomePage from './components/HomePage/HomePage';
+import Login from './components/Login/Login';
+import Register from './components/Register/Register';
+import Dashboard from './components/Dashboard/Dashboard';
+import AnonymousMessage from './components/AnonymousMessage/AnonymousMessage';
+import Navbar from './components/Navbar/Navbar'; 
 
 interface Message {
     id: number;

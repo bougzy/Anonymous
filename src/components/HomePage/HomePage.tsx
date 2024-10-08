@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import chatImage from './assets/mask.jpg'; // Update with your image path
+import chatImage from '../../assets/mask.jpg'; // Update with your image path
 
 const HomePage = () => {
     return (

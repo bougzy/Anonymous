@@ -1,6 +1,6 @@
 import React, { useState } from 'react'; 
 import { useNavigate, Link } from 'react-router-dom'; 
-import data from './data.json'; // Adjust the path if necessary
+import data from '../utils/data.json'
 
 const Register = () => {
     const [username, setUsername] = useState('');
